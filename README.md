@@ -1,2 +1,5 @@
 # PYTHON
-Estudo em py
+
+## Livro 
+### *INTRODUÇÃO A PROGRAMAÇÃO COM PYTHON*
+

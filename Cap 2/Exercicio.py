@@ -1,0 +1,5 @@
+print("Exercixio 2.1 [cap2]")
+print("Resultado:",10+20*30)
+print("Resultado:",4**2/30)
+print("Resultado:",(9**4+2)*6-1)
+print("Resultado:",10%3*10**2+1-10*4/2)

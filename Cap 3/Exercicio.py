@@ -1,5 +1,6 @@
 # Exercicio 3.1 - Complete a taabela a seguir, marcando inteiro ou flutuante dependando do numero apresentado 
 from re import S, T
+import re
 
 
 print( "Exercicio 3.1")
@@ -34,7 +35,10 @@ print(a>b and c or d)
 # Para ser aprovado, todas as medias do aluno devem ser maiores que 7. Considere que o aluno cursa apenas Três Matérias,
 # e que a nota de cada uma está armazenada nas seguintes variáveis: materia 1, 2,3   
 print( "Exercicio 3.6")
-materia1=6
-materia2=5
-materia3=5
-print((materia1+materia2+materia3/3)>=7)
+materia1 = 6
+materia2 = 8
+materia3 = 9
+media=7
+total=((materia1+materia2+materia3)/3)
+aprovado=total>=media
+print(aprovado)

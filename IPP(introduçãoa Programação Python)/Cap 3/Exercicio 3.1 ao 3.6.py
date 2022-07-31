@@ -42,3 +42,5 @@ media=7
 total=((materia1+materia2+materia3)/3)
 aprovado=total>=media
 print(aprovado)
+
+

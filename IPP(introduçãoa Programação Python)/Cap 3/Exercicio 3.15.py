@@ -1,9 +1,6 @@
 #Escreva um programa para calcular a redução de tempo de vida de um fumante.Pergunte a quantidade de cigarros fumados 
 #por dia e quantos anos ele ja fumou considere que um fumante perde 10 minutos de vida a cada cigarro e calcule  
 #quantos dias de vida um fumante perderá. Exiba o total em dias
-from functools import total_ordering
-from traceback import print_last
-
 
 print( "Exercicio 3.15")
 

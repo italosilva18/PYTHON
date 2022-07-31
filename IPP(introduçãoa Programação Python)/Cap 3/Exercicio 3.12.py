@@ -3,7 +3,7 @@
 from dis import dis
 
 
-print( "Exercicio 3.112")
+print( "Exercicio 3.12")
 
 distancia = float(input("Insira a Distancia a Percorrer:"))
 velocidade = float(input("Qual é a Velocidade meia do trageto:"))

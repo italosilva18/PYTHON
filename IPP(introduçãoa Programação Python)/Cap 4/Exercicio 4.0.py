@@ -1,6 +1,4 @@
 #Lê dois valores e imprima qual é o maior 
-from re import I
-from sre_constants import SRE_FLAG_UNICODE
 
 
 print("Exercicio 4.1")

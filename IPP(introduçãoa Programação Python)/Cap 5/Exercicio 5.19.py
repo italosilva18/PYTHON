@@ -12,8 +12,6 @@ while True:
         print(f"{cedulas}Cedulas(s) de R${atual}")
         if apagar==0:
             break
-        if apagar>=0.001:
-            break
         if atual==100:
             atual = 50
         elif atual==50:

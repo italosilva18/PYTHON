@@ -1,27 +1,34 @@
-#Reecrever a o sexercicio 5.1de forma a continuar execultando atá que o valor digiado seja 0
+#Ecreva um programa que exiba uma lista de opções (menu):adição subtração e divisão e sair. imprima a tabuada da operação escolhida. 
+# Repita até que a opção saida seja escolhida
 
 while True:
-    valor = int(input("Digite o valor: "))
-    if valor == 0:
+    print("""
+
+Menu
+----
+1 - Adição
+2 - Subtração
+3 - Divisão
+4 - Multiplicação
+5 - Sair
+
+
+""")
+    opção = int(input("Escolha uma opção:"))
+    if opção == 5:
         break
-    cédulas = 0
-    atual = 50
-    apagar = valor
-    while True:
-        if atual <= apagar:
-            apagar -= atual
-            cédulas += 1
-        else:
-            print(f"{cédulas} cédula(s) de R${atual}")
-            if apagar == 0:
-                break
-            if atual == 50:
-                atual = 20
-            elif atual == 20:
-                atual = 10
-            elif atual == 10:
-                atual = 5
-            elif atual == 5:
-                atual = 1
-            cédulas = 0
-                           
+    elif opção >= 1 and opção < 5:
+        n = int(input("Tabuada de:"))
+        x = 1
+        while x <= 10:
+            if opção == 1:
+                print(f"{n} + {x} = {n + x}")
+            elif opção == 2:
+                print(f"{n} - {x} = {n - x}")
+            elif opção == 3:
+                print(f"{n} / {x} = {n / x:5.4f}")
+            elif opção == 4:
+                print(f"{n} x {x} = {n * x}")
+            x = x + 1
+    else:
+        print("Opção inválida!")

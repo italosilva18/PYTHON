@@ -8,3 +8,4 @@ if percuso>200:
 else:
     passagem = percuso*0.50
 print(f"O valor da passagem é de R$:{passagem:5.2f} e a quilometragem é de {percuso}km.")    
+
